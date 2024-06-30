@@ -3,6 +3,7 @@
 
 Although remote devices are generally reliable, there are occasions when it is necessary to monitor various parameters related to the systemctl units and the hardware health of the device. While one approach involves periodically logging into the device via SSH to retrieve all relevant statistics, we recommend implementing a service on the device that performs this task, similar to a cron job. Developing a web application could be a logical solution; however, automating this process through Telegram offers a more efficient alternative, significantly reducing the time to market.
 
+
 # `main` branch is not the root
 ------
 
